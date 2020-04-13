@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ghostwhite;
+    color:#363636;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 1em;
+
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+
+}
+
+
+section {
+    max-width: 180px;
+    float: left;
+}
+
+section p { 
+    display: block;
+    text-decoration: underline; 
+    color:#363636;
+
+}
+
+
+section a { 
+    display: block;
+    text-decoration: none; 
+    color:#363636;
+
+}
+
+
+
+footer {
+    font-size:0.8em;
+    color:#363636;
+    padding-top: 1em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 1.5em;
+}
+
+.label:after{
+    content:'';
+}
+.label:hover:after{
+    content:' Made with ♡.';
+}
+
+.clear { clear: both; }
+
+
+
+
+section a:hover { text-decoration: underline; }
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        max-width: 100%;
+        float: none;
+        min-height: auto;
+    }
+
+
+}
+
